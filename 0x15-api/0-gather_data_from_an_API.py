@@ -2,7 +2,6 @@
 """
 Queries information from the JSON placeholder API.
 Returns the information about an employee's TODO list progress.
-"""
 import requests
 import sys
 

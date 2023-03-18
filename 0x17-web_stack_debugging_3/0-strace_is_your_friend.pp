@@ -3,6 +3,7 @@
 # automate it using Puppet (instead of using Bash as you were
 # previously doing).
 
+
 exec { 'fix-phpp':
   provider => shell,
   command  => 'sed -i \'s/.phpp/.php/\' /var/www/html/wp-settings.php',

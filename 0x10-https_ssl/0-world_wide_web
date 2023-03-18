@@ -2,6 +2,7 @@
 # shellcheck disable=SC2086
 # Bash script that will display information about subdomains.
 
+
 excute () {
         RECORD_TYPE=$(dig "$2"."$1" | awk 'BEGIN{OFS=" ";} /^'$2'/{print $4}')
         DESTINATION=$(dig "$2"."$1" | awk 'BEGIN{OFS=" ";} /^'$2'/{print $5}')

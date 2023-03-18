@@ -24,6 +24,7 @@ The root cause of this outage was determined to be a server fault triggered by h
 
 Corrective and Preventative Measures:  
 
+
 To prevent future outages like this one, the following tasks should be completed: 
 
   - Increase server capacity to better handle high traffic. 
